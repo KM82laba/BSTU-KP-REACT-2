@@ -1,0 +1,93 @@
+.conteiner-checkout{
+    background-color: #FFFF;
+    border-radius: 13px;
+    width:95%;
+}
+.conteiner-checkout-adress , .conteiner-checkout-payment{
+    background-color: #FFFF;
+    border-radius: 13px;
+    width:95%;
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+.conteiner-checkout-col-1{
+    width: 80%;
+}
+.conteiner-checkout-col-2{
+    height: auto;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner-checkout-link{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 8px;
+
+width: 50px;
+height: 20px;
+
+border: 1px solid #1A1F16;
+border-radius: 11px;
+
+font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+}
+
+.conteiner-checkout-adress-text , .conteiner-checkout-payment-text{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    /* Font/Dark */
+
+    color: #1A1F16;
+
+    
+    padding-left: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 0.2em;
+}
+
+.conteiner-checkout-payment-text{
+    display: flex;
+    
+}
+
+.creditcardfill-icon{
+    margin-right: 10px;
+}
+.title-checkout{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31.25px;
+    line-height: 38px;
+    
+
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.conteiner-checkout-cart{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+background: #FFFFFF;
+border-radius: 21px;
+margin-top: 2%;
+height: 250px;
+width: 100%;
+}

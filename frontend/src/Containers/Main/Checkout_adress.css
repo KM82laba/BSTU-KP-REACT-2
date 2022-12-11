@@ -1,0 +1,77 @@
+.conteiner-component-checkout-adress{
+    display: block;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 32px;
+
+    height: 400px;
+    width: 40%;
+
+    margin: 0 auto;
+    
+}
+.text-for-checkout{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+
+    color: rgba(26, 31, 22, 0.5);
+}
+.input-text-for-checkout{
+    padding: 8px 16px;
+    gap: 8px;
+
+    width: 95%;
+    height: 25px;
+    margin-bottom: 20px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(26, 31, 22, 0.15);
+    border-radius: 13px;
+
+    border: 0 ;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.btn-link-for-checkout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 95%;
+    height: 20px;
+    margin-bottom: 20px;
+    padding: 8px 16px;
+
+    background: #1A1F16;
+    border-radius: 10px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.checkout-secure-connection{
+    text-align: center;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+
+
+
+    color: #02D693;
+}

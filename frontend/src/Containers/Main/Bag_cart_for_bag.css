@@ -1,0 +1,128 @@
+@font-face {
+	font-family: 'Cabin'; 
+	src: url(./Fonts/Cabin.ttf); 
+}
+    .title-bag{
+    font-family: 'Cabin';
+    font-style: normal;
+    
+    font-size: 200%;
+    line-height: 47px;
+    text-align: center;
+    }
+    .conteiner-bag{
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    }
+    .conteiner-cart{
+        width: 20%;
+        background-color: white;
+        border-radius: 10px;
+        display: inline-block;
+        margin: 5px;
+        border-width: 0;
+        height: 120px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-cart-bag{
+        
+        width: 100%;
+        border-radius: 6px;
+        border: 0px white solid;
+       
+    }
+    .conteiner-cart-img-bag{
+        background-color: rgb(255, 255, 255);
+        border-radius: 12px;
+        width: 100%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    #bag-btn-img{
+        
+        width: 100%;
+        border-radius: 12px;
+        z-index: 1;
+        background-color: white;
+        border: 0px white solid;
+    }
+    #bag-btn-img:hover:after{
+        align-content: center;
+        content: '\2718';
+        /*
+        \2716
+        */
+    }
+    @media screen  and (max-width:1200px ){
+        .conteiner-cart{
+            width: 33.333%;
+        }
+    }
+    @media screen  and (max-width:1200px ){
+        .conteiner-cart{
+            height: 100px;
+        }
+    }
+    @media screen  and (max-width:425px ){
+        .conteiner-cart{
+            width: 65%;
+        }
+        .title-bag{
+            font-size: 150%;
+        }
+        
+            
+    }
+    .btn-link{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-family: 'Cabin';
+        font-style: normal;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 24px;
+        gap: 8px;
+        background: #1A1F16;
+        border-radius: 14px;
+        width: 40%;
+        margin-left: 30%; 
+        margin-top: 5%;
+    }
+    .btn-link:hover{
+        color: white;
+        box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(0, 0, 0),0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    }
+    @media screen  and (max-width:1440px ){
+        .btn-link,.conteiner-cart-total{
+            width: 50%; 
+            margin-left: 25%; 
+        }  
+    }
+    @media screen  and (max-width:1025px ){
+        .btn-link{
+            width: 70%; 
+            margin-left: 15%; 
+        } 
+        
+    }
+    @media screen  and (max-width:769px ){
+        .btn-link,.conteiner-cart-total{
+            width: 100%; 
+            margin-left: 0; 
+        }  
+    }
+    .conteiner-cart-total{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 5%;
+    text-align: center;
+    }

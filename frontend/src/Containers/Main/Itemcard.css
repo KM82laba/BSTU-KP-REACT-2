@@ -1,0 +1,120 @@
+@font-face {
+	font-family: 'Cabin'; 
+	src: url(./Fonts/Cabin.ttf); 
+}
+
+.card-style{
+display: inline-block;
+height: 20%;
+width: 25%;
+margin-top: 3%;
+}
+.conteiner-card-image{
+width: 70%;
+height: 210px;
+
+background: #FFFFFF;
+border-radius: 22px;
+
+display: inline-flex;
+align-items: center;
+justify-content: center;
+}
+.card-img-style{
+width: 70%;
+background: #FFFFFF;
+border-radius: 12px;
+}
+.card-img-style:hover{
+    cursor: pointer;
+    
+}
+.description-style{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 8px;
+gap: 8px;
+}
+.title-style{
+font-family: 'Cabin';
+font-style: normal;
+font-size: 100%;
+margin-bottom: 0;
+width: 100%;
+display: inline;
+}
+
+.desc-style{
+font-family: 'Cabin';
+font-style: normal;
+font-size: 100%;
+letter-spacing: -0.02em;
+color: #60695C;
+margin-bottom: 0;
+width: 100%;
+display: inline;
+}
+.price-style{
+font-family: 'Cabin';
+font-style: normal;
+flex: none;
+order: 0;
+flex-grow: 0;
+width: 100%;
+display: inline;
+}
+.button-style{
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    background: #1A1F16;
+    border-radius: 9px;
+    color: #fff;
+    
+    border: 0 solid black;
+    float: right;
+    margin-right: 30%;
+
+    cursor: pointer;
+}
+@media screen  and (max-width:1024px ){
+    .card-style{
+        width: 50%;
+        }
+}
+@media screen  and (max-width:768px ){
+    .card-style{
+        width: 100%;
+        margin-left: 20%;
+    }
+    .conteiner-card-image{
+      width: 40%;
+      height: 250px;
+    }
+
+}
+@media screen  and (max-width:425px ){
+    .button-style{
+        margin-right: 40%;
+    }
+    .card-style{
+        width: 90%;
+        margin-left: 40%;
+    }
+    .card-img-style{
+        width: 100%;
+    }
+    .conteiner-card-image{
+      width: 60%;
+      height: 250px;
+    }
+
+}
+
+.link-to-itemcard-discription{
+    width: 80%;
+    margin-left: 25%;
+}

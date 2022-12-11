@@ -1,0 +1,70 @@
+.conteiner-component-checkout-add-new-cart{
+    display: block;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 32px;
+
+    height: 400px;
+    width: 40%;
+
+    
+    margin: 50px auto;
+}
+.conteiner-component-checkout-select-card{
+    display: block;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 32px;
+
+    height: 150px;
+    width: 40%;
+
+    margin: 50px auto;
+}
+.title-checkout-cart{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31.25px;
+    line-height: 38px;
+    
+
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+   
+    margin-bottom: 20px;
+}
+.text-for-checkout-cart{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+
+    color: rgba(26, 31, 22, 0.5);
+}
+.input-text-for-checkout-cart{
+    padding: 8px 16px;
+    gap: 8px;
+
+    width: 40%;
+    height: 25px;
+    margin-bottom: 20px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(26, 31, 22, 0.15);
+    border-radius: 13px;
+
+    border: 0 ;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.conteiner-component-checkout-add-new-cart-col-1 , .conteiner-component-checkout-add-new-cart-col-2{
+    width: 30%;
+    display: inline-block;
+}

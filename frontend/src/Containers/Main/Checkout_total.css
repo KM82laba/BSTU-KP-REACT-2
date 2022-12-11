@@ -1,0 +1,98 @@
+.conteiner-checkout-total{
+    background-color: #FFF;
+    padding: 16px;
+    gap: 16px;
+    border-radius: 13px;
+    width: 80%;
+}
+.title-checkout-total{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.conteiner-checkout-total-text{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 8px;
+margin-top: 10px;
+color: #60695C;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: -0.02em;
+}
+.conteiner-checkout-total-order{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    margin-top: 10px;
+
+    border-bottom: 1px solid #BFD1E5;
+    border-top: 1px solid #BFD1E5;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+
+    color: #E5252C;
+}
+.btn-link-for-checkout-total{
+margin-top: 10px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 8px;
+
+
+height: 20px;
+
+background: #1A1F16;
+border-radius: 11px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: -0.02em;
+
+/* Font/White */
+
+color: #FFFFFF;
+}
+.conteiner-link-back-checkout-total{
+display: flex;
+float: right;
+justify-content: center;
+align-items: center;
+width: 50px;
+margin-right: 10%;
+margin-top: 30px;
+padding: 8px 24px;
+gap: 3px;
+border: 1px solid #1A1F16;
+border-radius: 11px;
+
+font-family: 'Cabin';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: -0.02em;
+}
+

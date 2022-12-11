@@ -1,0 +1,139 @@
+.card-style-description{
+    margin-right: 3%;
+}
+.conteiner-card-image-description{
+    width: 45%;
+    display: inline-block;
+}
+.conteiner-card-title-description{
+    width: 55%;
+    display: inline-block;
+}
+.conteiner-card-text-description{
+    border-top: 3px solid rgba(26, 31, 22, 0.5);
+    width: 100%;
+    margin-top: 3%;
+}
+.conteiner-image-col_1-description{
+    width: 10%;
+    display: inline-block;
+}
+.conteiner-image-col_2-description{
+    
+    display: inline-block;
+    background-color: white;
+    background-repeat: no-repeat;
+	background-size: 70% 70%;
+	background-position: center center;
+    border-radius: 13px;
+    width: 70%;
+    height: 270px;
+    
+    margin-left: 10% ;
+
+    transition: all 0.5s;
+}
+.card-img_1-style-description, .card-img_2-style-description , .card-img_3-style-description{
+   
+    width: 60%;
+    height: 42px;
+}
+.conteiner-style-image-description{
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 70% 80%;
+    background-position: center center;
+    border-radius: 13px;
+    
+
+
+    margin-bottom: 20%;
+    width: 70px;
+    height: 60px;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+.conteiner-style-image-description:hover{
+    transform: scale(1.2);
+}
+
+
+.title-style-description{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 74px;
+    color: black;
+}
+.desc-style-description{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    color: rgba(26, 31, 22, 0.5);
+}
+.price-style-description{
+    display: inline;
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31.25px;
+    line-height: 38px;
+}
+.button-style-description{
+    display: inline;
+    
+    justify-content: center;
+    align-items: center;
+
+    background: #1A1F16;
+    border-radius: 14px;
+    color: #FFFF;
+    cursor: pointer;
+
+    width: 174px;
+    height: 40px;
+
+    margin-right: 3%;
+    float: right;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+}
+.button-style-description:hover{
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(0, 0, 0),0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.description-style-short-description{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.description-style-description{
+    font-family: 'Cabin';
+    font-style: normal;
+    color: #60695C;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+.description-stylep-title-description{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-size: 31.25px;
+    line-height: 38px;
+}
