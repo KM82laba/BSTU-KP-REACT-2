@@ -2,11 +2,11 @@
 	font-family: 'Cabin'; 
 	src: url(./Fonts/Cabin.ttf); 
 }
-.title{
+.title-cart{
 font-family: 'Cabin';
 font-style: normal;
 font-weight: 400;
-font-size: 48.83px;
+font-size: 3rem;
 line-height: 59px;
 }
 .conteiner-bag-cart{
@@ -89,7 +89,35 @@ justify-content: center;
 }
 .conteiner-bag-cart-total-after{
     display: none;
-    margin-left: 30%;
+    
+}
+.btn-bag-link{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Cabin';
+
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8px 24px;
+    gap: 8px;
+    background: #1A1F16;
+    border-radius: 14px;
+    margin-top: 5%;
+    
+}
+.btn-bag-link:hover{
+    color: white;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(0, 0, 0),0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+.conteiner-bag-cart-total{
+font-family: 'Cabin';
+font-style: normal;
+font-size: 20px;
+margin-top: 5%;
+text-align: center;
 }
 @media screen  and (max-width:1024px ){
     .conteiner-bag-cart-item-change{
@@ -110,57 +138,83 @@ justify-content: center;
 }
 @media screen  and (max-width:425px ){
     .conteiner-bag-cart{
-        width: 125%;
+        width: 89%;
         margin-left: 6%;
-        height: 300px;
+        height: auto;
+        padding: 15px;
+    }
+    .conteiner-bag-cart-for-img{
+        width: 60%;
     }
     .conteiner-bag-cart-item-change-minus,.conteiner-bag-cart-item-change-plus{
         width: 5%;
     }
     .conteiner-bag-cart-item-change{
-        margin-left: 50%
+        margin-left: 28%
     }
-    .title{
+    .title-cart{
         margin-left: 5%;
+        font-size: 1.9rem;
+        
     }
     .conteiner-bag-cart-total-after{
         display: block;
+    }
+    .conteiner-bag-cart-title{
+        font-size: 1.5rem;
+    }
+    .conteiner-bag-cart-desc , .conteiner-bag-cart-price ,.conteiner-bag-cart-quantity{
+        font-size: 1rem;
+    }
+    .conteiner-bag-cart-total-after{
+        margin-left: 35%;
+        
     }
 }
 
 @media screen  and (max-width:375px ){
     .conteiner-bag-cart{
-        width: 125%;
+        width: 89%;
         margin-left: 8%;
-        height: 350px;
+        height: auto;
+        padding: 15px;
     }
     .conteiner-bag-cart-item-change-minus,.conteiner-bag-cart-item-change-plus{
         width: 5%;
     }
     .conteiner-bag-cart-item-change{
-        margin-left: 40%
+        margin-left: 18%
     }
-    .title{
+    .title-cart{
         margin-left: 13%;
-        font-size: 35px;
+        font-size: 1.6rem;
+    }
+    .conteiner-bag-cart-title{
+        font-size: 1.3rem;
+    }
+    .conteiner-bag-cart-desc , .conteiner-bag-cart-price {
+        font-size: 0.8rem;
     }
     
 }
 @media screen  and (max-width:320px ){
     .conteiner-bag-cart{
-        width: 125%;
-        margin-left: 11%;
-        height: 390px;
+        width: 89%;
+        margin-left: 9%;
+        height: auto;
+        padding: 15px;
     }
     .conteiner-bag-cart-item-change-minus,.conteiner-bag-cart-item-change-plus{
         width: 5%;
     }
     .conteiner-bag-cart-item-change{
-        margin-left: 30%
+        margin-left: 2%
     }
-    .title{
+    .title-cart{
         margin-left: 13%;
-        font-size: 30px;
+        font-size: 1.3rem;
     }
-    
+    .conteiner-cart-total{
+        margin-left: 30%;
+    }
 }

@@ -5,6 +5,7 @@ import './Checkout.css';
 import { Link } from 'react-router-dom';
 import { FaShoppingCart} from 'react-icons/fa';
 
+import {IoIosArrowBack} from 'react-icons/io';
 
 import {removetoadress} from './toadressSlice';
 import ToAdressList from './ToAdressList';
@@ -28,7 +29,7 @@ const Chekout = () => {
     } = useCart();
     if (isEmpty) return <p className="title-checkout">Your Cart is Empty</p>
     return(              
-                    <div>
+                    <div className="conteiner-checkout-main">
                         <div className="conteiner-checkout-adress">
                             <div className="conteiner-checkout-col-1">
                                 <p className="title-checkout">Shipping Address</p>
@@ -76,9 +77,21 @@ const Chekout = () => {
                             </div>
                             
                     
-                            <div className="conteiner-bag-cart-total-after">
-                            <p className="conteiner-cart-total">Bag Total: ${cartTotal}</p>
-                            <Link to="../Bag_page" className="btn-link"><FaShoppingCart/>Checkout</Link>
+                                    <div className="conteiner-checkout-total-after">
+                                <div className='conteiner-checkout-total' >
+                                        <p className='title-checkout-total'>Order Summary</p>
+                                        <p className="conteiner-checkout-total-text">Items: <span className="checkout-total-price">${cartTotal}</span></p>
+                                        <p className="conteiner-checkout-total-text">Shipping: <span className="checkout-total-price">$6.99</span></p>
+                                        <p className="conteiner-checkout-total-text">Sale: <span className="checkout-total-price">-20%</span></p>
+                                        <p className="conteiner-checkout-total-order">Order Total: <span className="checkout-total-order-price">${0.8*cartTotal + 6.99 }</span></p>
+                                        <Link to="/" className="btn-link-for-checkout-total">Place your order</Link>
+                                </div>
+                                <Link to="../Bag_page">
+                                    <div className="conteiner-link-back-checkout-total">
+                                    <IoIosArrowBack/>Back
+                                    </div>
+                                </Link>
+                            
                             </div>
                     </div>
         

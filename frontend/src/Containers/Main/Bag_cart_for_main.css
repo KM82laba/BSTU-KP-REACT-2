@@ -5,22 +5,22 @@
     .title-bag-for-main{
     font-family: 'Cabin';
     font-style: normal;
-    font-size: 200%;
+    font-size: 2rem;
     line-height: 47px;
     text-align: center;
     }
     .conteiner-cart-for-main{
         display: inline-block;
         width: 25%;
-        margin: 5px;
+        margin: 10px;
     }
     
     
     .conteiner-img-cart-bag-for-main{
-        width: 100%;
+        width: 75px;
         
         border-radius: 10px;
-        margin: 5px;
+        
         height: 80px;
         display: inline-flex;
         opacity: 1;
@@ -104,13 +104,18 @@
     }
     @media screen  and (max-width:1025px ){
         .btn-link-for-main{
-            width: 70%; 
+            
             margin-left: 15%; 
         }  
     }
     @media screen  and (max-width:769px ){
         .btn-link-for-main{
-            width: 100%; 
+            width: 70%; 
             margin-left: 0; 
         }  
+        .conteiner-cart-for-main{
+            margin-left: 40px;
+            
+            margin-top: 0;
+        }
     }

@@ -28,24 +28,26 @@ function Main ()  {
         <div>
             
             <input autoFocus type="text" autoComplete="off" placeholder="Search" className="input-search" onChange={(event)=>setvalue(event.target.value)}/>
-            <div className="form_radio_btn">
-                <input id="All"type="radio" name="filter" value="All"  onClick={(event)=>{setvalue(event.target.value = '')}}/>
-                <label for="All">All</label>
+            <div className="container-form_radio_btn">
+                <div className="form_radio_btn">
+                    <input id="All"type="radio" name="filter" value="All"  onClick={(event)=>{setvalue(event.target.value = '')}}/>
+                    <label for="All">All</label>
+                </div>
+                <div className="form_radio_btn">
+                    <input id="Headphones" type="radio" name="filter" value="Headphones"  onClick={(event)=>{setvalue(event.target.value = 'Headphones')}} />
+                    <label for="Headphones">Headphones</label>
+                </div>
+                <div className="form_radio_btn">
+                    <input id="Laptop" type="radio" name="filter" value="Laptop"  onClick={(event)=>{setvalue(event.target.value = 'Laptop')}} />
+                    <label for="Laptop">Laptop</label>
+                </div>
+                <div className="form_radio_btn">
+                    <input id="Watch" type="radio" name="filter" value="Watch"  onClick={(event)=>{setvalue(event.target.value = 'Watch')}} />
+                    <label for="Watch">Watch</label>
+                </div>
             </div>
-            <div className="form_radio_btn">
-                <input id="Headphones" type="radio" name="filter" value="Headphones"  onClick={(event)=>{setvalue(event.target.value = 'Headphones')}} />
-                <label for="Headphones">Headphones</label>
-            </div>
-            <div className="form_radio_btn">
-                <input id="Laptop" type="radio" name="filter" value="Laptop"  onClick={(event)=>{setvalue(event.target.value = 'Laptop')}} />
-                <label for="Laptop">Laptop</label>
-            </div>
-            <div className="form_radio_btn">
-                <input id="Watch" type="radio" name="filter" value="Watch"  onClick={(event)=>{setvalue(event.target.value = 'Watch')}} />
-                <label for="Watch">Watch</label>
-            </div>
-            <br />
-            
+           
+            <div className="conteiner-main-card">
             {filtereditems.map((item , index)=>{
                 return (
                     <Itemcard 
@@ -63,7 +65,7 @@ function Main ()  {
                    
                 )
             })}
-            
+            </div>
 
         </div>
 );

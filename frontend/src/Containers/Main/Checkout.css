@@ -91,3 +91,55 @@ margin-top: 2%;
 height: 250px;
 width: 100%;
 }
+.conteiner-checkout-total-after{
+    display: none;
+    margin-top: 20px;
+}
+@media screen  and (max-width:769px ){
+    .title-checkout{
+        font-size: 1.5rem;
+    }
+    .conteiner-checkout-col-1{
+        width: 70%;
+    }
+}
+@media screen  and (max-width:426px ){
+.col_1-1{
+    width: 100%;
+}
+.conteiner-checkout-main{
+    margin-left: 7%;
+    width: 100%;
+}
+.conteiner-checkout-total-after{
+    display: block;
+}
+.conteiner-checkout-cart{
+    margin-bottom: 15%;
+}
+.conteiner-checkout-adress-text ,.title-checkout ,.conteiner-checkout-payment-text{
+    font-size: 1rem;
+}
+.conteiner-checkout-link{
+    width: 30px;
+    height: 15px;
+    font-size: 0.9rem;
+}
+.conteiner-checkout-adress, .conteiner-checkout-payment ,.conteiner-checkout{
+    width: 90%;
+}
+}
+@media screen  and (max-width:375px ){
+    .conteiner-checkout-cart{
+        margin-top: 5%;
+    }
+    .conteiner-checkout-adress, .conteiner-checkout-payment, .conteiner-checkout {
+        width: 95%;
+    }
+    
+}
+@media screen  and (max-width:320px ){
+    .conteiner-checkout, .conteiner-checkout-payment, .conteiner-checkout-adress {
+        width: 97%;
+    }
+}

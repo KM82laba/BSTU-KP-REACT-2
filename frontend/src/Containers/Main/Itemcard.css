@@ -88,30 +88,29 @@ display: inline;
 @media screen  and (max-width:768px ){
     .card-style{
         width: 100%;
-        margin-left: 20%;
     }
     .conteiner-card-image{
       width: 40%;
       height: 250px;
     }
-
+    .button-style{
+        margin-right: 60%;
+    }
 }
 @media screen  and (max-width:425px ){
     .button-style{
         margin-right: 40%;
     }
     .card-style{
-        width: 90%;
-        margin-left: 40%;
-    }
-    .card-img-style{
         width: 100%;
+        
     }
+    
     .conteiner-card-image{
       width: 60%;
-      height: 250px;
+      height: 150px;
     }
-
+   
 }
 
 .link-to-itemcard-discription{

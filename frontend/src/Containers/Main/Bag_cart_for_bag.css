@@ -59,26 +59,7 @@
         \2716
         */
     }
-    @media screen  and (max-width:1200px ){
-        .conteiner-cart{
-            width: 33.333%;
-        }
-    }
-    @media screen  and (max-width:1200px ){
-        .conteiner-cart{
-            height: 100px;
-        }
-    }
-    @media screen  and (max-width:425px ){
-        .conteiner-cart{
-            width: 65%;
-        }
-        .title-bag{
-            font-size: 150%;
-        }
-        
-            
-    }
+    
     .btn-link{
         text-decoration: none;
         color: #FFFFFF;
@@ -100,6 +81,14 @@
         color: white;
         box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(0, 0, 0),0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
     }
+    .conteiner-cart-total{
+    font-family: 'Cabin';
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 5%;
+    text-align: center;
+    }
+
     @media screen  and (max-width:1440px ){
         .btn-link,.conteiner-cart-total{
             width: 50%; 
@@ -111,7 +100,10 @@
             width: 70%; 
             margin-left: 15%; 
         } 
-        
+        .conteiner-cart{
+            width: 33.333%;
+            height: 100px;
+        }
     }
     @media screen  and (max-width:769px ){
         .btn-link,.conteiner-cart-total{
@@ -119,10 +111,12 @@
             margin-left: 0; 
         }  
     }
-    .conteiner-cart-total{
-    font-family: 'Cabin';
-    font-style: normal;
-    font-size: 20px;
-    margin-top: 5%;
-    text-align: center;
+    
+    @media screen  and (max-width:425px ){
+        .conteiner-cart{
+            width: 65%;
+        }
+        .title-bag{
+            font-size: 150%;
+        } 
     }

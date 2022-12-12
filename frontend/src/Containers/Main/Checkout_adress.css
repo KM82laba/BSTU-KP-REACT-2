@@ -75,3 +75,15 @@
 
     color: #02D693;
 }
+@media screen  and (max-width:769px ){
+    .conteiner-component-checkout-adress {
+        width: 80%;
+        margin-left: 5%;
+    }
+}
+@media screen  and (max-width:375px ){
+    .conteiner-component-checkout-adress {
+        width: 70%;
+        margin-left: 10%;
+    }
+}

@@ -5,10 +5,8 @@ import { Link } from 'react-router-dom'
 import {IoIosArrowBack} from 'react-icons/io';
 const Checkout_total = () => {
     const {
-        items,
         isEmpty,
         cartTotal,
-        removeItem
     } = useCart();
     if (isEmpty) return 
     return(

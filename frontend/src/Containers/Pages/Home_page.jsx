@@ -60,7 +60,7 @@ function Home_page () {
      </div>
      
      <CartProvider>
-          <div>
+          <div className='conteiner-home-itemcard'>
             <Home_Itemcard/>
           </div>
       </CartProvider>

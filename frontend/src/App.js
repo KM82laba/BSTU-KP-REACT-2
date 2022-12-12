@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './App.css'
+import './Adaptive.css'
 import NavBar from './Containers/NavBar/NavBar';
 import {BrowserRouter,Routes,Route } from  'react-router-dom';
 import Bag_page from './Containers/Pages/Bag_page';

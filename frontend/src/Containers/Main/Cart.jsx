@@ -15,11 +15,11 @@ const Cart = () => {
         removeItem,
         emptyCart,
     } = useCart();
-    if (isEmpty) return <p className="title">Your Cart is Empty</p>
+    if (isEmpty) return <p className="title-cart">Your Cart is Empty</p>
     return(
                         <div>
                         
-                                <p className="title">Check your Bag Items</p>
+                                <p className="title-cart">Check your Bag Items</p>
                             
                                 {items.map((item,index)=>{
                                     return(
@@ -45,8 +45,8 @@ const Cart = () => {
                             
                     
                             <div className="conteiner-bag-cart-total-after">
-                            <p className="conteiner-cart-total">Bag Total: ${cartTotal}</p>
-                            <Link to="../Checkout_page" className="btn-link"><FaShoppingCart/>Checkout</Link>
+                            <p className="conteiner-bag-cart-total">Bag Total: ${cartTotal}</p>
+                            <Link to="../Checkout_page" className="btn-bag-link"><FaShoppingCart/>Checkout</Link>
                             </div>
                         </div>
         
