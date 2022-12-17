@@ -17,7 +17,7 @@ function Main ()  {
       };
       fetchData();
     }, []);
-
+    console.log(products)
     const [value, setvalue] = useState('')
     const filtereditems = products.filter(item =>{
         
